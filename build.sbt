@@ -1,3 +1,4 @@
+
 val dottyVersion = "3.0.0-M2"
 
 lazy val root = project
@@ -11,10 +12,12 @@ lazy val root = project
     libraryDependencies ++=
       Seq(
         "org.knowm.xchart" % "xchart" % "3.8.0",
+        "de.vandermeer" % "asciitable" % "0.3.2",
         "com.novocode" % "junit-interface" % "0.11" % "test"
       )
 
   )
 
-
-mainClass in(Compile, run) := Some("io.parapet.benchmark.Benchmark")
+assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = true)
+mainClass in assembly := Some("io.parapet.scheduler.benchmark.Benchmark")
+mainClass in(Compile, run) := Some("io.parapet.scheduler.benchmark.Benchmark")

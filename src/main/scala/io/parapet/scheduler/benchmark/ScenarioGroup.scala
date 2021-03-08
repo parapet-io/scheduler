@@ -1,6 +1,7 @@
-package io.parapet.benchmark
+package io.parapet.scheduler.benchmark
 
 case class ScenarioGroup(val name: String,
+                         val workers: Int,
                          val workersThreads: Int,
                          val senders: Int,
                          val sendersThreads: Int,
@@ -8,6 +9,7 @@ case class ScenarioGroup(val name: String,
                          series: List[Int]) {
 
   val scenarios = series.map(events => Scenario(
+    workers = workers,
     workersThreads = workersThreads,
     senders = senders,
     sendersThreads = sendersThreads,
