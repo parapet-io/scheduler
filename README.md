@@ -1,7 +1,7 @@
 # scheduler
 Scheduling algorithm for the parapet process model
 
-## Absract
+## Abstract
 
 ## Algorithm
 
