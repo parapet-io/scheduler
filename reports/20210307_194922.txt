@@ -1,0 +1,54 @@
+group1 -- results:
+events: 1000}, time: 0ms
+events: 10000}, time: 3ms
+events: 100000}, time: 16ms
+events: 500000}, time: 61ms
+events: 1000000}, time: 129ms
+events: 5000000}, time: 650ms
+events: 10000000}, time: 1194ms
+==================================================
+group2 -- results:
+events: 1000}, time: 0ms
+events: 10000}, time: 1ms
+events: 100000}, time: 13ms
+events: 500000}, time: 68ms
+events: 1000000}, time: 138ms
+events: 5000000}, time: 679ms
+events: 10000000}, time: 1319ms
+==================================================
+group3 -- results:
+events: 1000}, time: 0ms
+events: 10000}, time: 0ms
+events: 100000}, time: 13ms
+events: 500000}, time: 66ms
+events: 1000000}, time: 143ms
+events: 5000000}, time: 717ms
+events: 10000000}, time: 1441ms
+==================================================
+group4 -- results:
+events: 1000}, time: 0ms
+events: 10000}, time: 0ms
+events: 100000}, time: 1ms
+events: 500000}, time: 4ms
+events: 1000000}, time: 31ms
+events: 5000000}, time: 102ms
+events: 10000000}, time: 179ms
+==================================================
+group5 -- results:
+events: 1000}, time: 0ms
+events: 10000}, time: 0ms
+events: 100000}, time: 0ms
+events: 500000}, time: 0ms
+events: 1000000}, time: 0ms
+events: 5000000}, time: 14ms
+events: 10000000}, time: 36ms
+==================================================
+group6 -- results:
+events: 1000}, time: 0ms
+events: 10000}, time: 0ms
+events: 100000}, time: 0ms
+events: 500000}, time: 0ms
+events: 1000000}, time: 0ms
+events: 5000000}, time: 0ms
+events: 10000000}, time: 0ms
+==================================================
