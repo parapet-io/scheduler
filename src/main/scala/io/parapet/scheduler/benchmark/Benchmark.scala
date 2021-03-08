@@ -111,7 +111,7 @@ object Benchmark {
       }
       results.foreach { res =>
         writer.write3H(s"${sg.name} ${res.scenario.events} events")
-        writer.write(s"[${sg.name}](#${sg.name}) [top](#content)\n")
+        writer.write(s"navigate [${sg.name}](#${sg.name}) / [top](#content)\n")
         writer.write(s"**Config**:\n")
         writer.code()
         writer.write(res.scenario.toString)
@@ -134,6 +134,7 @@ object Benchmark {
           table.addRule()
           writer.write(table.render(width))
           writer.code()
+          writer.write(s"navigate [${sg.name}](#${sg.name}) / [top](#content)\n")
           writer.write("\n")
         }
       }
